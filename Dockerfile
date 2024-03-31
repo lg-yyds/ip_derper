@@ -20,7 +20,7 @@ WORKDIR /app
 ENV DERP_ADDR :443
 ENV DERP_HTTP_PORT 80
 ENV DERP_HOST=127.0.0.1
-ENV DERP_CERTS=/app/certs/
+ENV DERP_CERTS=/app/certs
 ENV DERP_STUN true
 ENV DERP_VERIFY_CLIENTS false
 # ==========================
